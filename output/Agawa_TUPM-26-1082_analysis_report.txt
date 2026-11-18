@@ -1,0 +1,28 @@
+SECOM NUMERICAL DATA ANALYSIS
+Student: Agawa
+Student ID: TUPM-26-1082
+Random Seed: 261082
+Verification Value: 97
+
+Sample Size: 219
+Assigned Features: Feature_273, Feature_566, Feature_560, Feature_079, Feature_269
+
+Pass Records: 205
+Fail Records: 14
+Failure Percentage: 6.39%
+
+Highest-SD Feature: Feature_273
+Highest Sample SD: 4.1915
+
+FEATURE SUMMARY
+    Feature  count      mean      std     min     max
+Feature_273  219.0 20.035972 4.191494  8.6512 43.5737
+Feature_269  219.0  3.799331 1.105050  1.5336  8.0099
+Feature_566  219.0  2.501788 0.881591  0.7390  6.4277
+Feature_560  219.0  0.072464 0.054821  0.0177  0.4457
+Feature_079  219.0  0.003646 0.023923 -0.0423  0.0893
+
+OUTCOME MEANS
+Outcome  Feature_273  Feature_566  Feature_560  Feature_079  Feature_269
+   Fail    20.352207     2.225343     0.072036     0.010114     3.650879
+   Pass    20.014375     2.520667     0.072493     0.003204     3.809469
