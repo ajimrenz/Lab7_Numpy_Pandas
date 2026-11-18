@@ -1,0 +1,14 @@
+SENSITIVITY REPORT - SECOM (Fail minus Pass mean difference)
+Seed: 261082 | SEED_DIGIT: 2 | Bootstrap repetitions: 220
+Selected features: Feature_078, Feature_269, Feature_273, Feature_560, Feature_567
+Strategy A = available-case. Strategy B = median imputation (full-dataset medians).
+
+Features with changed difference sign: 0
+Features with changed ranking       : 2
+Largest change in mean difference   : 0.005502 (Feature_273)
+Features whose 95% CI excludes zero  : A = 0, B = 0
+Reproducibility verified            : True
+
+Interpretation:
+Some features changed direction or ranking between strategies, so conclusions for those features depend on the preprocessing method and should be treated with caution.
+Features whose CI includes zero do not show a reliable Fail-vs-Pass difference. Imputing with the median pulls values toward the center, which can shrink the spread and the difference.
